@@ -1,0 +1,73 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .rimplenet-pairing-info-div-1 {
+    margin: auto;
+    max-width: 600px;
+}
+ .rimplenet-pairing-info-div-2{
+     text-align:center;
+     border: 1px solid #e5e5e5;
+ }
+ 
+ 
+.rimplenet-select{
+
+width: 100%;
+border: 1px solid #e5e5e5;
+resize: none;
+font-size: 14px;
+height: 50px;
+padding-left: 10px;
+     
+ }
+ 
+ .rimplenet-input{
+     width:100%;
+     height: 50px;
+     padding-left: 10px;
+ }
+ 
+ .rimplenet-texarea{
+     width:100%;
+     margin-top:10px;
+ }
+ 
+ .rimplenet-button{
+     text-decoration:none !important;
+     margin:6px;
+ }
+ 
+.rimple-net-collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+ .rimple-net-collapsible:hover {
+  background-color: #555;
+}
+
+.rimple-net-collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.rimple-net-collapsible-content {
+  margin-bottom:25px;
+  padding:0 13px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
